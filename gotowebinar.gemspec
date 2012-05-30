@@ -4,8 +4,8 @@ require File.expand_path('../lib/gotowebinar/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Sadan Masroor"]
   gem.email         = ["sadanmasroor87@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{RubyGem to ease the integration of GoToWebinar API in Ruby on Rails Applications}
+  gem.summary       = %q{RubyGem to ease the integration of GoToWebinar API in Ruby on Rails Applications}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
