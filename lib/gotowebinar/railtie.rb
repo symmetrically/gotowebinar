@@ -5,7 +5,7 @@ module GoToWebinar
     rake_tasks do
       spec = Gem::Specification.find_by_name("gotowebinar")
       gem_root = spec.gem_dir
-      import gem_root + "/gotowebinar/tasks/gotowebinar"
+      import gem_root + "/lib/tasks/gotowebinar"
 
     end
   end
