@@ -3,7 +3,7 @@ require 'rails'
 module GoToWebinar
   class Railtie < Rails::Railtie
     rake_tasks do
-      require 'task.rb'
+      import "lib/tasks/gotowebinar"
     end
   end
 end
