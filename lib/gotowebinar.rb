@@ -1,5 +1,6 @@
 require "gotowebinar/version"
 
 module Gotowebinar
-  # Your code goes here...
+   require "lib/gotowebinar/railtie" if defined?(Rails)
+
 end
