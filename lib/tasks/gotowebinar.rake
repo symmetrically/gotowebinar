@@ -1,3 +1,5 @@
+PATH = File.expand_path '../..', __FILE__
+
 namespace :gotowebinar do
   
   
