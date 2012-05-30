@@ -1,6 +1,6 @@
 require 'gotowebinar'
 require 'rails'
-module YourGem
+module GoToWebinar
   class Railtie < Rails::Railtie
     rake_tasks do
       require '../tasks/gotowebinar.rb'
